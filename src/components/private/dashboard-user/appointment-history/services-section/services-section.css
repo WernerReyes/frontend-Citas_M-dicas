@@ -1,0 +1,45 @@
+/*-------------------------------------------------------
+SECCION SERVICIOS
+---------------------------------------------------------
+*/
+
+#servicios a  {
+    text-decoration: none;
+}
+
+#servicios h3 {
+    color: #0043a4;
+}
+
+#servicios .icons {
+    height: 80px;
+    max-width: 200px;
+    margin: 10px;
+    padding: 80px 0;
+    border-radius: 30px;
+    box-shadow: 6px 3px 4px 3px rgba(0, 0, 0, 0.2);
+    background-color: #ffff;
+}
+#servicios .icon {
+    background-color: #0043a4;
+    color: #ffff;
+}
+#servicios .hist{
+    background: #ffff;
+    border-radius: 10px;
+    box-shadow: 6px 3px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* @media screen and (max-width: 568px) {
+    
+    #servicios {
+        background-color: aqua;
+
+    }
+}
+
+@media screen and (max-width: 468px) { 
+    #procesos-realizar .row .col-4 h1 {
+        font-size: 20px;
+    }
+} */

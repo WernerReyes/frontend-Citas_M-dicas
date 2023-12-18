@@ -1,0 +1,47 @@
+/*-------------------------------------------------------
+SECCION LISTA DE DOCTORES
+---------------------------------------------------------
+*/
+
+#doctor-list a {
+    text-decoration: none;
+  }
+
+#doctor-list .fondo {
+  background-color: rgba(234, 234, 235, 0.7);
+}
+#doctor-list .icons {
+  height: 80px;
+  max-width: 200px;
+  margin: 10px;
+  padding: 80px 0;
+  border-radius: 30px;
+  box-shadow: 6px 3px 4px 3px rgba(0, 0, 0, 0.2);
+  color: #0043a4;
+  background-color: #ffff;
+}
+#doctor-list .icon {
+  background-color: #0043a4;
+  color: #ffff;
+}
+#doctor-list .caja {
+  border: 3px solid !important;
+  border-radius: 10px;
+  color: #88bd24;
+}
+#doctor-list .caja:hover {
+  background-color: #dae7f8;
+  color: #ffff;
+}
+#doctor-list .buscar {
+  margin-right: 0;
+}
+#doctor-list .rowkit {
+  margin-left: 0;
+}
+#doctor-list .cont-caja {
+  color: blue;
+}
+#doctor-list .caja .cont-caja:hover {
+  color: #fff;
+}

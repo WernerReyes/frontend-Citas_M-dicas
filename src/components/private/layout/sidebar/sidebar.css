@@ -1,0 +1,51 @@
+/*----------------------------------------------
+SECCIOM SIDEBAR PRIVATE
+----------------------------------------------*/
+
+#sidebar {
+    background-color: #0043a4;
+    width: 300px;
+  }
+  
+  #sidebar .offcanvas-header .datos h3,
+  #sidebar .offcanvas-body .servicios h3,
+  #sidebar .offcanvas-body .administracion h3,
+  #sidebar .offcanvas-body .accesos-rapidos h3 {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  #sidebar .offcanvas-header .datos p {
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  #sidebar .offcanvas-header .datos span {
+    color: #30cfe1;
+  }
+  
+  #sidebar .offcanvas-body ul {
+    list-style: none;
+  }
+  
+  #sidebar .offcanvas-body {
+    font-size: 12px;
+  }
+  
+  #sidebar .offcanvas-body ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #sidebar .offcanvas-body ul li a.active {
+    color: #30cfe1;
+  }
+  
+  #sidebar .offcanvas-body ul li a i {
+    padding-right: 10px;
+  }
+  
+  #sidebar .offcanvas-body ul li hr {
+      border: 1px solid #fff;
+    }

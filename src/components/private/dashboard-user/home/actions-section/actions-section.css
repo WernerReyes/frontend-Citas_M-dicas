@@ -1,0 +1,68 @@
+/*----------------------------------------------
+SECCION DE ACCIONES USER    
+----------------------------------------------*/
+
+#procesos-realizar {
+    background-color: #f1f4f5;
+    margin-top: 150px;
+}
+
+#procesos-realizar .row .col-lg-4 h1 {
+    color: #0043a4;
+    font-size: 30px;
+    text-align: center;
+}
+
+#procesos-realizar a {
+    text-decoration: none;
+ }
+
+#procesos-realizar .links-datos-realizar .row .col-lg-4 div  {
+    height: 100px;
+    margin: 10px;
+    padding: 100px 0;
+    border-radius: 30px;
+    box-shadow: 6px 3px 4px 3px rgba(0, 0, 0, 0.2);
+    color: #0043a4;
+    background-color: #FFF;
+}
+
+#procesos-realizar .links-datos-realizar .row .col-lg-4 div.active {
+    background-color: #0043a4;
+    color: #FFF;
+}
+
+#procesos-realizar div.active a {
+    color: #FFF;
+ }
+
+#procesos-realizar .links-datos-realizar .row .col-md-12 div {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/*
+*** <!-- Accesos rapidos -->
+*/
+#accesos-rapidos {
+    background-color: #FFF;
+}
+#accesos-rapidos h3,
+#accesos-rapidos p {
+    color: #0043a4;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 568px) {
+    
+    #procesos-realizar .row .col-4 h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 468px) { 
+    #procesos-realizar .row .col-4 h1 {
+        font-size: 20px;
+    }
+}

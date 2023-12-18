@@ -1,0 +1,118 @@
+/*-------------------------------------------------------
+SECCION HISTORIAL DE CITAS
+---------------------------------------------------------
+*/
+
+#main-history {
+    margin-top: 150px;
+    background-color: rgba(234, 234, 235, .7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#main-history h3 {
+    color: #0043a4;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#historial-citas {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#historial-citas h3 {
+    color: #1c4ca5;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#historial-citas .container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.card p strong {
+    color: #1c4ca5;
+    margin-bottom: 10px;
+}
+
+
+.card {
+    font-weight: 500;
+}
+
+
+.card .btn-outline-primary {
+    color: #1c4ca5;
+    border-color: #1c4ca5;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.card .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #1c4ca5;
+    border-color: #1c4ca5;
+}
+
+
+
+#modal-show-history-content-body {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+#modal-show-history-content-body .imageContainer {
+    margin-right: 20px;
+}
+
+#modal-show-history-content-body .contenidoDetalle {
+    flex-grow: 1;
+}
+
+#modal-show-history-content-body .contenidoDetalle p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #1c4ca5; /* Cambia el color del texto a un azul oscuro */
+}
+
+#modal-show-history-content-body .contenidoDetalle p:last-child {
+    margin-bottom: 0;
+}
+
+#modal-show-history-content-body .imagen {
+    border-radius: 50%;
+}
+
+#modal-show-history-content-body .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #1c4ca5; /* Cambia el color del borde a un azul oscuro */
+}
+
+#modal-show-history-content-body .contenidoDetalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff; /* Añade un fondo blanco al contenidoDetalle */
+    padding: 20px; /* Añade un padding al contenidoDetalle */
+    border-radius: 10px; /* Añade bordes redondeados al contenidoDetalle */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Añade una sombra suave al contenidoDetalle */
+}

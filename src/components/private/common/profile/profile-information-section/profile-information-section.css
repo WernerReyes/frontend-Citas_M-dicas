@@ -1,0 +1,61 @@
+/*-------------------------------------------------------
+SECCION INFORMACION DE PERFIL
+---------------------------------------------------------
+*/
+#profile-section {
+    width: 50%;
+    margin-top: 170px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 20px;
+}
+
+#profile-section .container {
+    max-width: 120px;
+}
+
+#profile-section .espacio-container {
+    margin-bottom: 20px;
+}
+
+#profile-section .contenido {
+    margin-top: 20px;
+}
+
+#profile-section .centrar {
+    text-align: center;
+}
+
+#profile-section .img-round {
+    border-radius: 50%;
+}
+
+#profile-section .info {
+    color: #30cfe1;
+}
+
+#profile-section strong {
+    color: #0043a4;
+}
+
+#profile-section .btn {
+    background-color: #30cfe1;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: .3s;
+}
+
+#profile-section .btn:hover {
+    background-color: #0043a4;
+}
+
+@media screen and (max-width: 768px) {
+    #profile-section {
+        width: 80%;
+    }
+}

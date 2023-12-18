@@ -1,0 +1,18 @@
+#topbar {
+    background: #1c4ca5;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    z-index: 996;
+    transition: all 0.5s;
+  }
+  
+  #topbar.topbar-scrolled {
+    top: -40px;
+  }
+  
+  #topbar i {
+    padding-right: 6px;
+    line-height: 0;
+  }

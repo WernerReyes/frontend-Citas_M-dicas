@@ -1,0 +1,10 @@
+#sedes h2, 
+#sedes p {
+  color: #1c4ca5;
+}
+
+#sedes p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
